@@ -1,0 +1,15 @@
+{
+  "name": "tnp-terms-of-membership",
+  "version": "1.0.0",
+  "description": "Terms of membership for TNP",
+  "main": "scripts/build.js",
+  "bin": {
+    "generate-pdf": "./scripts/build.js"
+  },
+  "author": "TNP",
+  "license": "MIT",
+  "dependencies": {
+    "github-markdown-css": "^5.5.1",
+    "md-to-pdf": "^5.2.4"
+  }
+}
